@@ -111,5 +111,8 @@ test.finalizedBy jacocoTestReport
 test {
     systemProperty "server_ip", System.getProperty("server_ip")
     systemProperty "server_user", System.getProperty("server_user")
+    systemProperty "wait_time", System.getProperty("wait_time")
+    systemProperty "time_unit", System.getProperty("time_unit")
+
     useJUnitPlatform()
 }
