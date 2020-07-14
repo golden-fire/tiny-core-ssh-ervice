@@ -1,0 +1,6 @@
+{
+  "name": "black smith",
+  "sex": "male",
+  "isConstructor": false,
+  "department": ["math", "cs"]
+}
