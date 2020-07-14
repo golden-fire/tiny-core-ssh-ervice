@@ -19,7 +19,7 @@ A ssh public/private key pair has to been steup correctly between local server a
 * wait_time is optional, default value is 20, it is the maximum waiting time for you to finish all your remote commands
 * time_unit is optional, default value is seconds (only supports seconds and minutes), it is the time unit for the waiting time
 
-## server and example
+## service and example
 ### SshService
 
 This is the service for you to execute a list of command. On a remote linux server, the following code will do:
